@@ -5,13 +5,13 @@ export default function App() {
   return (
     <div className="App">
       <Greet name="Bruce" heroName="Batman">
-        <p>Bhai ye children hai pehle waale greet element ka</p>
+        <p>Children of 1st Greet</p>
       </Greet>
-      <Greet name="Chamila" heroName="Baborao">
+      <Greet name="Sunny" heroName="Superman">
         <button>Click Me</button>
-        <p>Children second waale greet element ka</p>
+        <p>Children of second greet</p>
       </Greet>
-      <Greet name="Totla Seth" heroName="Talis Lakh" />
+      <Greet name="Tony" heroName="Iron Man" />
     </div>
   );
 }
